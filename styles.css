@@ -216,12 +216,12 @@ p {
 
   .wrapper {
     background-color: rgb(0, 0, 0);
-    width: 350px;
+    width: 325px;
     display: inline-flex;
     border-style: solid;
     /* margin-left: 350px;
     margin-right: 350px; */
-    /* padding: 10%; */
+    padding: 5%;
     border-radius: 15px;
     align-content: center;
     border-color: rgb(223, 223, 223);
