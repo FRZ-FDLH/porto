@@ -13,14 +13,22 @@ p {
   color: darkgrey;
 }
 
+.icon {
+  transition-duration: 1s;
+}
+
+.icon:hover {
+  transform: translatey(-7px);
+}
+
 .name {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 100;
 }
 
 .button {
-  width: 24%;
-  height: 15%;
+  width: 150px;
+  height: 25px;
   margin-top: 20px;
   border-radius: 15px;
   color: white;
@@ -28,6 +36,7 @@ p {
   border-style: solid;
   border-color: white;
   border-width: 2px;
+  transition-duration: 1s;
 }
 
 .button:hover {
@@ -41,18 +50,19 @@ p {
   width: 100%;
   height: 100vh;
   align-content: center;
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
 }
 
 .wrapper {
   background-color: rgb(0, 0, 0);
-  gap: 100px;
   display: inline-flex;
   border-style: solid;
-  margin-left: 350px;
-  margin-right: 350px;
+  width: 70%;
   padding: 3%;
+  /* margin: 10%; */
   border-radius: 15px;
-  align-content: center;
   border-color: rgb(223, 223, 223);
 }
 
@@ -151,6 +161,7 @@ p {
 .form-text {
   width: 100%;
   max-width: 750px;
+  min-width: 750px;
   min-height: 40px;
   padding-left: 15px;
   padding-top: 5px;
@@ -160,6 +171,62 @@ p {
   border-radius: 12px;
 }
 
-.back{
+.back {
   color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .project-wrapper {
+    width: 75%;
+  }
+
+  .project {
+    margin-top: 10%;
+    /* margin-bottom: %; */
+  }
+  .card-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .tag {
+    width: 100%;
+  }
+
+
+  .form, .form-text {
+    width: 95%;
+    max-width: 95%;
+    min-width: 95%;
+  }
+
+  .main-section {
+    background-image: url("assets/Screenshot\ 2025-06-24\ 220953.png");
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+  }
+  
+  .wrapper {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    display: inline-flex;
+    border-style: solid;
+    /* margin-left: 350px;
+    margin-right: 350px; */
+    padding: 3%;
+    border-radius: 15px;
+    align-content: center;
+    border-color: rgb(223, 223, 223);
+  }
+
+  .tag {
+  margin: 10px;
+  }
+
+
 }
