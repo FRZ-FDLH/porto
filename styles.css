@@ -52,7 +52,7 @@ p {
   align-content: center;
   display: flex;
   justify-content: center; /* Horizontal center */
-  align-items: center;     /* Vertical center */
+  align-items: center; /* Vertical center */
 }
 
 .wrapper {
@@ -182,8 +182,9 @@ p {
 
   .project {
     margin-top: 10%;
-    /* margin-bottom: %; */
+    margin-bottom: 10%;
   }
+
   .card-wrapper {
     width: 100%;
     flex-wrap: wrap;
@@ -197,8 +198,8 @@ p {
     width: 100%;
   }
 
-
-  .form, .form-text {
+  .form,
+  .form-text {
     width: 95%;
     max-width: 95%;
     min-width: 95%;
@@ -210,10 +211,10 @@ p {
     height: 100vh;
     align-content: center;
   }
-  
+
   .wrapper {
     background-color: rgb(0, 0, 0);
-    width: 400px;
+    width: 350px;
     display: inline-flex;
     border-style: solid;
     /* margin-left: 350px;
@@ -225,8 +226,6 @@ p {
   }
 
   .tag {
-  margin: 10px;
+    margin-right: 55px;
   }
-
-
 }
