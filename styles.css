@@ -182,7 +182,9 @@ p {
 
   .project {
     margin-top: 10%;
-    margin-bottom: 10%;
+    padding-bottom: 350px;
+    justify-items: center;
+    align-content: center;
   }
 
   .card-wrapper {
